@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #f0f0f0;
+    background-color: #d9d9d9;
     padding: 20px;
 }
 
@@ -58,7 +58,8 @@ nav a:hover {
     background-image: url("hero-image.jpg");
     background-size: cover;
     background-position: center;
-    color: white;
+    font-weight: 800;
+    color: black;
 }
 
 .hero h1 {
