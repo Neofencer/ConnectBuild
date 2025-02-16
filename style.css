@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 .step img {
-    max-width: 100px;
+    max-width: 400px;
     margin-bottom: 20px;
 }
 
@@ -143,6 +143,11 @@ footer {
         width: 100%;
         margin-bottom: 20px;
     }
+
+    step img {
+        max-width: 150px; /* Smaller image size on mobile */
+    }
+
     .project-grid {
         grid-template-columns: 1fr;
     }
@@ -155,6 +160,11 @@ footer {
     .step {
         width: 20%;
     }
+
+    .step img {
+        max-width: 400px; /* Larger image size on desktop */
+    }
+
     .project-grid {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
